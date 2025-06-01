@@ -16,9 +16,19 @@ This project demonstrates an end-to-end intelligent automation solution built on
 This project automates the end-to-end supplier registration and data management workflow on the [Visit RPASamples Supplier Portal](https://www.rpasamples.com) using UiPath's Robotic Enterprise Framework (REFramework). It performs web-based data entry, file upload, dynamic date selection, record verification, email communication, CSV data cleansing, and structured data export to Excel categorized by industry, all while handling errors, retries, and logging as per REFramework best practices.
 
 **Key Features:**
-* Automated supplier registration through web form interaction including text entry, dropdown selection, checkbox validation, and file upload
+* Automated supplier registration through web form interaction including text entry, dropdown selection, and checkbox validation
 * Dynamic date handling to select a date 40 days before the current date in the form
 * Automated record verification by searching with the external name and capturing browser screenshots
 * Email automation to send the captured screenshot as an attachment via SMTP to a configured recipient
 * Automated CSV report download and processing, named dynamically with the user’s name and current date
 * Duplicate data removal and structured output of cleaned records into industry-specific Excel sheets
+
+## Project 3 - Customer Survey Form UiApp
+This project is a UiPath Apps-based Customer Survey Form, created from a hand-drawn form design to collect structured feedback from users regarding their experience with a website. The app captures essential details such as the user's name, email, and phone number, followed by ratings and comments about the site’s usability and their overall satisfaction. Built with UiPath Apps, it features form validations, buttons, and a dynamic thank-you image shown after submission using conditional logic.
+
+**Key Features:**
+* Designed from a hand-drawn paper form and implemented using UiPath Apps
+* Field validations for name, email format, and 10-digit phone number
+* Displays a full-screen thank-you image using boolean logic upon submission
+* No-code front-end hosted in UiPath Automation Cloud
+* Easily extendable with Data Service or Orchestrator for data handling
