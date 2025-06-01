@@ -31,9 +31,20 @@
  + ./Framework/*CloseAllApplications* - Logs out and closes applications used throughout the process
 
 
-### For New Project ###
 
-1. Check the Config.xlsx file and add/customize any required fields and values
-2. Implement InitiAllApplications.xaml and CloseAllApplicatoins.xaml workflows, linking them in the Config.xlsx fields
-3. Implement GetTransactionData.xaml and SetTransactionStatus.xaml according to the transaction type being used (Orchestrator queues by default)
-4. Implement Process.xaml workflow and invoke other workflows related to the process being automated
+
+**Key Features:**
+
+✅ Document Understanding Framework integration for invoice classification and data extraction
+
+📄 Uses OmniPage OCR engine for high-accuracy text recognition from scanned PDFs
+
+🔁 Built on REFramework, ensuring modularity, exception handling, and transaction management
+
+🔍 Includes validation station support for human-in-the-loop review of low-confidence fields
+
+📦 Organizes input, processed, and rejected invoices into separate folders with detailed logging
+
+💾 Outputs extracted data to structured formats (Excel/CSV/Database) for further processing
+
+
